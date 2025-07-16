@@ -46,7 +46,6 @@ h1 {
   scrollbar-width: none;
   background: linear-gradient(to right, #4e54c8, #8f94fb);
   border-bottom: 2px solid #d1d5ff;
-  padding: 0 10px;
 }
 
 .tabs-header::-webkit-scrollbar {
