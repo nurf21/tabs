@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabbed Interface</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-folder-open"></i> Tabbed Interface</h1>
+    </header>
+
+    <div class="tabs-container">
+      <div class="tabs-header">
+        <button class="tab active" data-tab="tab1">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </button>
+        <button class="tab" data-tab="tab2">
+          <i class="fas fa-list"></i>
+          <span>Features</span>
+        </button>
+        <button class="tab" data-tab="tab3">
+          <i class="fas fa-cog"></i>
+          <span>Settings</span>
+        </button>
+        <button class="tab" data-tab="tab4">
+          <i class="fas fa-info-circle"></i>
+          <span>About</span>
+        </button>
+      </div>
+
+      <div class="tab-content">
+        <div id="tab1" class="content active">
+          <h2>Welcome to Home</h2>
+          <p>This tabbed interface showcases a sleek design with smooth transitions. Each
+            tab contains different content layouts to demonstrate the versatility of the component.</p>
+
+          <h3>Key Benefits:</h3>
+          <ul>
+            <li>Organized content presentation for better user experience</li>
+            <li>Space-efficient interface that maximizes screen real estate</li>
+            <li>Visually appealing design with smooth animations</li>
+            <li>Responsive layout that works on all device sizes</li>
+            <li>Easy navigation between different content sections</li>
+          </ul>
+
+          <p>This implementation uses pure JavaScript with no external libraries required. The design features gradient
+            backgrounds, custom icons, and interactive elements.</p>
+        </div>
+
+        <div id="tab2" class="content">
+          <h2>Features</h2>
+          <p>Our tab component comes packed with powerful features designed to enhance user experience and engagement:
+          </p>
+
+          <div class="features-grid">
+            <div class="feature-card">
+              <i class="fas fa-bolt"></i>
+              <h3>Fast Performance</h3>
+              <p>Optimized JavaScript for instant tab switching with smooth animations.</p>
+            </div>
+
+            <div class="feature-card">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Responsive Design</h3>
+              <p>Adapts perfectly to all screen sizes from mobile to desktop.</p>
+            </div>
+
+            <div class="feature-card">
+              <i class="fas fa-palette"></i>
+              <h3>Custom Styling</h3>
+              <p>Beautifully designed tabs with gradients and hover effects.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab3" class="content">
+          <h2>Configuration Options</h2>
+          <p>Customize the tab behavior and appearance with these settings:</p>
+
+          <ul>
+            <li><strong>Animation Speed:</strong> Control the transition duration between tabs</li>
+            <li><strong>Default Tab:</strong> Specify which tab should be active initially</li>
+            <li><strong>Tab Alignment:</strong> Choose between horizontal or vertical layout</li>
+            <li><strong>Color Scheme:</strong> Customize the gradient colors to match your brand</li>
+            <li><strong>Icon Options:</strong> Select from various icon libraries or use custom SVGs</li>
+          </ul>
+
+          <h3>Recommended Settings:</h3>
+          <ol>
+            <li>Set animation speed between 300-500ms for optimal experience</li>
+            <li>Use high-contrast colors for active tab indicators</li>
+            <li>Include icons for better visual recognition</li>
+            <li>Add subtle hover effects to enhance interactivity</li>
+            <li>Ensure sufficient padding for touch targets on mobile</li>
+            <li>Test color combinations for accessibility compliance</li>
+          </ol>
+        </div>
+
+        <div id="tab4" class="content">
+          <h2>About This Project</h2>
+          <p>This tabbed interface was created to demonstrate modern web development techniques with a focus on:</p>
+
+          <ul>
+            <li>Clean, semantic HTML structure</li>
+            <li>Advanced CSS styling with gradients and animations</li>
+            <li>Pure JavaScript implementation without frameworks</li>
+            <li>Responsive design principles</li>
+            <li>User experience best practices</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
